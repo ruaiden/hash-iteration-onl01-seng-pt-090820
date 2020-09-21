@@ -5,6 +5,7 @@
 # }
 
 def happy_birthday(birthday_kids)
+  
    birthday_kids {|key, value| puts "#{key}: #{value}"}    
 end
 
