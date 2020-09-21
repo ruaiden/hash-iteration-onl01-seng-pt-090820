@@ -5,7 +5,7 @@
 # }
 
 def happy_birthday(birthday_kids)
-  # add your code snippet here!
+   birthday_kids {|key, value| puts "#{key}: #{value}"      # add your code snippet here!
 end
 
 
